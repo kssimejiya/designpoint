@@ -1,0 +1,86 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 240px;
+  /* padding-left: 2rem; */
+  padding-top: 30px;
+  margin-left: 2rem;
+  /* margin-top: '-10rem'; */
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 4pc;
+  box-shadow: '5px 5px spread lightgray';
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: auto;
+  padding-right: auto;
+  margin-top: -3rem;
+  margin-left: 4rem;
+background: rgba(0, 0, 0, 0.5);
+}
+.grid {
+  width: 100vw;
+  height: 380px;
+  /* background: grey; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  /* margin-bottom: 200px; */
+  padding:10px;
+  padding-bottom:10px
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+@media screen and (max-width: 960px) {
+  .card {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* width: 70vw; */
+  height: 200px;
+  /* padding-left: auto;
+  padding-right: auto; */
+  
+  /* padding-left: 2rem; */
+  /* padding-top: -4rem; */
+  /* margin-left: 10vw;
+  margin-right: 10vw; */
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  margin-bottom: 1px;
+
+}
+.grid {
+  width: 90vw;
+  /* height: 400px; */
+  /* background: grey; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  margin-top: 150px;
+  padding:10px;
+  padding-bottom:10px
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+.phone {
+  height: 50px;
+  width: 150px
+}
+
+}

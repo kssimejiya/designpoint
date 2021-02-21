@@ -4,6 +4,7 @@
   height: 50vh;
   z-index: 999;
   position: absolute;
+  font-family: 'PT Serif', serif;
 }
 .navbar-container {
   display: flex;
@@ -26,13 +27,16 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding-right: 10px;
   justify-content: space-between;
+  height: 3vh;
 }
 .nav-item {
   padding-right: 10px;
   align-items: center;
-  font-style: 1.3rem;
+  /* font-style: 1.3rem; */
   font-weight: bold;
+  font-size: larger;
   opacity: 0.7;
   text-decoration: none;
 }
@@ -45,10 +49,15 @@
 }
 .navbar-logo {
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 23px;
   color: #000;
   align-items: center;
   font-weight: bold;
+  font-family: 'PT Serif', serif;
+  /* font-family: 'Bebas Neue', cursive; */
+  /* font-family: 'Akaya Kanadaka', cursive; */
+  /* padding-right: 0px; */
+  
 }
 .logo {
   /* height: 40px; */
@@ -74,13 +83,14 @@
   .FaBars, .FaTimes {
     display: block;
     justify-content: flex-end;
-    margin-right: 30px;
-    font-style: 1.2rem;
+    margin-right: 20px;
+    font-style: 1.4rem;
   }
   .nav-logo {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     width: 100vw;
+    height: 3vh;
   }
   .menu-icon {
     display: grid;
@@ -111,7 +121,7 @@
     align-items: center;
     position: absolute;
     width: 100%;
-    left: -100%;
+    left: -1000px;
   }
   .nav-menu.active {
     display: flex;
@@ -120,15 +130,22 @@
     position: absolute;
     width: 100%;
     left: 0;
+    transition: 1s;
     background: transparent;
     height: 30vh;
     top: 8vh;
     border: 20px;
+    margin-top: 60px;
     border-width: 80vw;
     text-decoration: none;
     flex: 1;
   }
   .nav-link{
     color: #fff;
+  }
+  .navbar-logo{
+    padding: 10px;
+    height: 3vh;
+    margin-top: -7px;
   }
 }

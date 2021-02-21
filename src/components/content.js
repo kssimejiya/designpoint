@@ -1,26 +1,24 @@
+import Bungalow from '../images/Bungalow.jpg'
+import Building from '../images/building.jpeg'
+import Office from '../images/office.jpg'
+
 export default [
   {
-    title: 'Bunglows',
-    description:
-      'View more pattern',
+    title: 'Bungalows',
     button: 'See More',
-    image: 'https://i.imgur.com/ZXBtVw7.jpg',
+    image: Bungalow,
     path: '/bungalows'
   },
   {
     title: 'Buildings',
-    description:
-      'View more pattern',
     button: 'See More',
-    image: 'https://i.imgur.com/DCdBXcq.jpg',
+    image: Building,
     path: '/buildings'
   },
   {
     title: 'Offices',
-    description:
-      'View more pattern',
     button: 'See More',
-    image: 'https://i.imgur.com/DvmN8Hx.jpg',
+    image: Office,
     path: '/offices'
   },
 ];

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { SiHomeassistant } from 'react-icons/si';
@@ -20,8 +20,7 @@ function Navbar() {
         <div className='navbar-container'>
           <div className='nav-logo'>
             <Link to='/' className='navbar-logo'>
-              {/* Design Point < SiHomeassistant className='SiHomeassistant' /> */}
-              <img src={logo} alt='' className='logo' />
+              Design Point < SiHomeassistant className='SiHomeassistant' />
             </Link>
           </div>
           <div className='menu-icon' onClick={handleClick}>
@@ -39,9 +38,9 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/contactUs' className='nav-link' onClick={closeMobileMenu}>
+              <NavLink to='/contactUs' className='nav-link' onClick={closeMobileMenu} activeClassName="navbar__link--active">
                 ContactUs
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

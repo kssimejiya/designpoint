@@ -1,0 +1,80 @@
+.popupBlock {
+  margin-top: 13vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  margin-bottom: 15px;
+}
+.popup {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 240px;
+   background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid grey;
+  border-radius: 4pc;
+  box-shadow: '5px 5px spread lightgray';
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.contact-text h1 {
+  padding-top: 30vh;
+  padding-left: 18vw;
+  color: #5caced;
+}
+.contact-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-img {
+ width: 45vw;
+ padding-top: 13vh;
+ padding-right: 10vw;
+}
+
+@media screen and (max-width: 420px) {
+ .contact-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-text h1 {
+  padding-top: 15vh;
+  padding-left: 27vw;
+  color: #5caced;
+}
+.contact-img {
+ width: 100vw;
+ padding-top: 5vh;
+ padding-right: 5vw;
+ padding-left: 10vw;
+}
+}
+
+@media screen and (orientation: landscape) and (min-device-width: 600px) 
+and (max-device-width: 812px) {
+ .contact-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-text h1 {
+  padding-top: 25vh;
+  padding-left: 38vw;
+  color: #5caced;
+}
+.contact-img {
+ width: 100vw;
+ padding-top: 5vh;
+ padding-right: 20vw;
+ padding-left: 21vw;
+}
+}

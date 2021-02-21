@@ -123,7 +123,7 @@ body {
 	/* margin-top: 60px; */
 	display: flex;
 	flex-direction: column;
-	height: 170%;
+	height: 150%;
 	width: 60%;
 	justify-content: center;
 	align-items: center;
@@ -134,10 +134,11 @@ body {
 }
 .project-item {
   padding-right: 10px;
-  font-style: 1.3rem;
+  font-size: 1.15rem;
   font-weight: bold;
   opacity: 0.7;
   text-decoration: none;
+	text-align: center;
 }
 .project-link {
   text-decoration: none;
@@ -146,7 +147,11 @@ body {
   text-align: center;
 	width: 80vw;
 	margin-left: 20px;
+	
 	/* background-color: #ffd800; */
+}
+.project-link:hover {
+	color: skyblue
 }
 .project-menu {
   display: flex;
@@ -160,17 +165,21 @@ body {
 	background-color: #000;
   /* margin-right: 20px; */
 	color: #000;
+	margin-top: 15px;
 	height: 23px;
+	border-radius: 10px;
+	
 }
 .projectNav {
   display: flex;
   text-decoration: none;
-	width: 40%;
+	width: 32%;
 	position: absolute;
-	margin-left: 60%;
+	margin-left: 68%;
 	z-index: 999;
 	/* background-color: aqua; */
 	margin-top: 6vh;
+	text-align: center;
   /* height: 8vh; */
 }
 
