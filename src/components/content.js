@@ -9,12 +9,12 @@ export default [
     image: Bungalow,
     path: '/bungalows'
   },
-  {
-    title: 'Buildings',
-    button: 'See More',
-    image: Building,
-    path: '/buildings'
-  },
+  // {
+  //   title: 'Buildings',
+  //   button: 'See More',
+  //   image: Building,
+  //   path: '/buildings'
+  // },
   {
     title: 'Offices',
     button: 'See More',
